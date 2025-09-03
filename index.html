@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless For Beacon Throwback</title>
+
+    <link rel="icon" href="Image/Endless For Beacon Throwback.png" type="image/png">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Image/Endless For Beacon Throwback.png" alt="Logo Radio Kami" class="radio-logo">
+
+        <h1>Endless For Beacon Throwback</h1>
+        
+        <p>Status: <span id="status-text">Memuat...</span></p>
+
+        <audio id="radio-player">
+            <source src="https://stream.zeno.fm/my5mdpq8hkxuv.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+
+        <div class="controls">
+            <button id="play-pause-btn" class="control-btn">Putar</button>
+            
+            <div class="volume-control">
+                <label for="volume-slider">Volume</label>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
